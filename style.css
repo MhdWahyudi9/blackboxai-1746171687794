@@ -1,0 +1,78 @@
+/* Custom styles for SDN 1 Bangunharjo Academic Progress Monitoring */
+
+body {
+    font-family: 'Comic Neue', cursive;
+    background: linear-gradient(135deg, #fef3c7, #fbcfe8, #c4b5fd);
+    min-height: 100vh;
+    margin: 0;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(236, 72, 153, 0.6);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fde68a;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ec4899;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #db2777;
+}
+
+/* Additional child-friendly styles */
+
+h1, h2, h3, h4, h5, h6 {
+    color: #be185d;
+    text-shadow: 1px 1px 2px #fbcfe8;
+}
+
+input, select, textarea {
+    font-family: 'Comic Neue', cursive;
+    font-weight: 600;
+    transition: box-shadow 0.3s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+    box-shadow: 0 0 8px 2px #ec4899;
+    border-color: #ec4899;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 2px solid #f9a8d4;
+    padding: 8px;
+    text-align: left;
+    background-color: #fff0f6;
+    color: #9d174d;
+}
+
+th {
+    background-color: #f472b6;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #fce7f3;
+}
+
+tr:hover {
+    background-color: #f9a8d4;
+    cursor: pointer;
+}
